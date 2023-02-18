@@ -13,6 +13,6 @@ int main(){
             index=i;
         }
     }
-    
+    printf("\nThe lowest value is %d at index %d", min, index);
     return 0;
 }
