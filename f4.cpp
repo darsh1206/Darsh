@@ -8,6 +8,11 @@ int main(){
     printf("Enter 10 numbers: ");
     for(int i=0;i<10;i++){
         cin>>a[i];
+        if(min>a[i]){
+            min=a[i];
+            index=i;
+        }
     }
+    
     return 0;
 }
